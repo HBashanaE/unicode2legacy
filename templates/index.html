@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    {% if title %}
+    <title>{{ title }}</title>
+    {% else %}
+    <title>Unicode to Legacy v1.0.0</title>
+    {% endif %}
+</head>
+
+<body>
+    <h1>Hello,!</h1>
+    <form action="{{ url_for('unicodeToLegacyBP.unitoleg') }}" method="post">
+        <textarea name="unicodeText" rows="20" cols="170"></textarea>
+        <textarea name="legacyText" rows="20" cols="170"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
