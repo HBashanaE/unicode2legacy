@@ -32,5 +32,5 @@ six==1.13.0
 urllib3==1.25.7
 virtualenv==16.7.9
 whichcraft==0.6.0
-whisper==1.2.0
+whisper==1.1.7
 zope.interface==4.7.1
